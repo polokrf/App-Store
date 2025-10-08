@@ -1,0 +1,146 @@
+[
+  {
+    "image": "https://i.ibb.co.com/Vk9mkBm/Gemini-Generated-Image-iy6xatiy6xatiy6x-9.png",
+    "title": "AstroJournal",
+    "companyName": "Skyline Labs",
+    "id": 201,
+    "description": "Log and organize your celestial observations easily. Get **real-time constellation tracking** and event updates. The perfect tool for **amateur astronomers** to document and share their nightly sky discoveries.",
+    "size": 65,
+    "reviews": 1500,
+    "ratingAvg": 4.7,
+    "downloads": 110000,
+    "ratings": [
+      { "name": "1 star", "count": 10 },
+      { "name": "2 star", "count": 20 },
+      { "name": "3 star", "count": 80 },
+      { "name": "4 star", "count": 400 },
+      { "name": "5 star", "count": 990 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/3YpncxQp/Gemini-Generated-Image-iy6xatiy6xatiy6x-8.png",
+    "title": "GreenThumb Planner",
+    "companyName": "Botanical Software",
+    "id": 202,
+    "description": "Your ultimate gardening companion. **Track plant growth**, manage complex watering schedules, and get alerts for **pest control**. This app ensures your garden thrives through accurate logging and timely reminders.",
+    "size": 40,
+    "reviews": 980,
+    "ratingAvg": 4.5,
+    "downloads": 85000,
+    "ratings": [
+      { "name": "1 star", "count": 15 },
+      { "name": "2 star", "count": 30 },
+      { "name": "3 star", "count": 90 },
+      { "name": "4 star", "count": 350 },
+      { "name": "5 star", "count": 495 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/gbJfjkFH/Gemini-Generated-Image-iy6xatiy6xatiy6x-7.png",
+    "title": "StoryWeaver Studio",
+    "companyName": "Narrative Nexus",
+    "id": 203,
+    "description": "Craft compelling stories with powerful tools. Utilize **AI-assisted plot generation**, refine characters, and build your world effortlessly. The studio provides the structure and guidance to complete your next novel or screenplay.",
+    "size": 110,
+    "reviews": 750,
+    "ratingAvg": 4.3,
+    "downloads": 60000,
+    "ratings": [
+      { "name": "1 star", "count": 40 },
+      { "name": "2 star", "count": 60 },
+      { "name": "3 star", "count": 120 },
+      { "name": "4 star", "count": 250 },
+      { "name": "5 star", "count": 280 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/hFPxvMRC/Gemini-Generated-Image-iy6xatiy6xatiy6x-6.png",
+    "title": "BudgetSavvy Wallet",
+    "companyName": "Financial Flow",
+    "id": 204,
+    "description": "Take full control of your money and work towards **financial freedom**. Easily **track all expenses**, create and manage personalized budgets, and get smart, actionable insights. Simplify your finances and save more effectively today.",
+    "size": 35,
+    "reviews": 2800,
+    "ratingAvg": 4.8,
+    "downloads": 220000,
+    "ratings": [
+      { "name": "1 star", "count": 5 },
+      { "name": "2 star", "count": 15 },
+      { "name": "3 star", "count": 70 },
+      { "name": "4 star", "count": 700 },
+      { "name": "5 star", "count": 2010 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/x4w550Q/Gemini-Generated-Image-iy6xatiy6xatiy6x-5.png",
+    "title": "Daily Mindful Moment",
+    "companyName": "Serene Apps",
+    "id": 205,
+    "description": "Find peace anytime with quick, **guided meditations** and essential breathing exercises. Our app is designed to help you reduce stress and cultivate calm, fitting seamlessly into even the busiest day for a quick **mental reset**.",
+    "size": 45,
+    "reviews": 1900,
+    "ratingAvg": 4.6,
+    "downloads": 140000,
+    "ratings": [
+      { "name": "1 star", "count": 20 },
+      { "name": "2 star", "count": 35 },
+      { "name": "3 star", "count": 100 },
+      { "name": "4 star", "count": 600 },
+      { "name": "5 star", "count": 1145 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/Cp7xxBy3/Gemini-Generated-Image-iy6xatiy6xatiy6x-4.png",
+    "title": "Pet Pal Diary",
+    "companyName": "Furry Friends Tech",
+    "id": 206,
+    "description": "The best way to stay organized for your beloved pet. Easily manage all vet **appointments**, medication doses, and daily routines with customizable reminders. Ensure your **furry friend** is healthy, happy, and well-cared for every day.",
+    "size": 55,
+    "reviews": 1120,
+    "ratingAvg": 4.4,
+    "downloads": 95000,
+    "ratings": [
+      { "name": "1 star", "count": 30 },
+      { "name": "2 star", "count": 50 },
+      { "name": "3 star", "count": 150 },
+      { "name": "4 star", "count": 400 },
+      { "name": "5 star", "count": 490 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/4x2KVW4/Gemini-Generated-Image-iy6xatiy6xatiy6x-3.png",
+    "title": "CodeMentor IDE",
+    "companyName": "Developer Tools Inc.",
+    "id": 207,
+    "description": "A powerful yet **lightweight mobile IDE** for developers needing to code on the go. It provides full support for **multiple programming languages** and features automatic cloud synchronization, allowing you to review and edit projects anywhere.",
+    "size": 150,
+    "reviews": 500,
+    "ratingAvg": 4.2,
+    "downloads": 40000,
+    "ratings": [
+      { "name": "1 star", "count": 70 },
+      { "name": "2 star", "count": 80 },
+      { "name": "3 star", "count": 100 },
+      { "name": "4 star", "count": 150 },
+      { "name": "5 star", "count": 100 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/Kj82Z8Bn/Gemini-Generated-Image-iy6xatiy6xatiy6x-2.png",
+    "title": "QuickSketch Pad",
+    "companyName": "Artistic Apps",
+    "id": 208,
+    "description": "Your fast and intuitive digital canvas. **Capture ideas instantly** using the simple, responsive drawing tools. Ideal for quick mockups, notes, and visual brainstorming, making it easy to save and share your spontaneous creations.",
+    "size": 25,
+    "reviews": 1700,
+    "ratingAvg": 4.6,
+    "downloads": 130000,
+    "ratings": [
+      { "name": "1 star", "count": 10 },
+      { "name": "2 star", "count": 20 },
+      { "name": "3 star", "count": 100 },
+      { "name": "4 star", "count": 550 },
+      { "name": "5 star", "count": 1020 }
+    ]
+  }
+]
