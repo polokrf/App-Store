@@ -1,362 +1,368 @@
-[
-  {
-    "image": "https://i.ibb.co.com/Vk9mkBm/Gemini-Generated-Image-iy6xatiy6xatiy6x-9.png",
-    "title": "AstroJournal",
-    "companyName": "Skyline Labs",
-    "id": 201,
-    "description": "Log and organize your celestial observations easily. Get **real-time constellation tracking** and event updates. The perfect tool for **amateur astronomers** to document and share their nightly sky discoveries.",
-    "size": 65,
-    "reviews": 1500,
-    "ratingAvg": 4.7,
-    "downloads": 110000,
-    "ratings": [
-      { "name": "1 star", "count": 10 },
-      { "name": "2 star", "count": 20 },
-      { "name": "3 star", "count": 80 },
-      { "name": "4 star", "count": 400 },
-      { "name": "5 star", "count": 990 }
-    ]
-  },
-  {
-    "image": "https://i.ibb.co.com/3YpncxQp/Gemini-Generated-Image-iy6xatiy6xatiy6x-8.png",
-    "title": "GreenThumb Planner",
-    "companyName": "Botanical Software",
-    "id": 202,
-    "description": "Your ultimate gardening companion. **Track plant growth**, manage complex watering schedules, and get alerts for **pest control**. This app ensures your garden thrives through accurate logging and timely reminders.",
-    "size": 40,
-    "reviews": 980,
-    "ratingAvg": 4.5,
-    "downloads": 85000,
-    "ratings": [
-      { "name": "1 star", "count": 15 },
-      { "name": "2 star", "count": 30 },
-      { "name": "3 star", "count": 90 },
-      { "name": "4 star", "count": 350 },
-      { "name": "5 star", "count": 495 }
-    ]
-  },
-  {
-    "image": "https://i.ibb.co.com/gbJfjkFH/Gemini-Generated-Image-iy6xatiy6xatiy6x-7.png",
-    "title": "StoryWeaver Studio",
-    "companyName": "Narrative Nexus",
-    "id": 203,
-    "description": "Craft compelling stories with powerful tools. Utilize **AI-assisted plot generation**, refine characters, and build your world effortlessly. The studio provides the structure and guidance to complete your next novel or screenplay.",
-    "size": 110,
-    "reviews": 750,
-    "ratingAvg": 4.3,
-    "downloads": 60000,
-    "ratings": [
-      { "name": "1 star", "count": 40 },
-      { "name": "2 star", "count": 60 },
-      { "name": "3 star", "count": 120 },
-      { "name": "4 star", "count": 250 },
-      { "name": "5 star", "count": 280 }
-    ]
-  },
-  {
-    "image": "https://i.ibb.co.com/hFPxvMRC/Gemini-Generated-Image-iy6xatiy6xatiy6x-6.png",
-    "title": "BudgetSavvy Wallet",
-    "companyName": "Financial Flow",
-    "id": 204,
-    "description": "Take full control of your money and work towards **financial freedom**. Easily **track all expenses**, create and manage personalized budgets, and get smart, actionable insights. Simplify your finances and save more effectively today.",
-    "size": 35,
-    "reviews": 2800,
-    "ratingAvg": 4.8,
-    "downloads": 220000,
-    "ratings": [
-      { "name": "1 star", "count": 5 },
-      { "name": "2 star", "count": 15 },
-      { "name": "3 star", "count": 70 },
-      { "name": "4 star", "count": 700 },
-      { "name": "5 star", "count": 2010 }
-    ]
-  },
-  {
-    "image": "https://i.ibb.co.com/x4w550Q/Gemini-Generated-Image-iy6xatiy6xatiy6x-5.png",
-    "title": "Daily Mindful Moment",
-    "companyName": "Serene Apps",
-    "id": 205,
-    "description": "Find peace anytime with quick, **guided meditations** and essential breathing exercises. Our app is designed to help you reduce stress and cultivate calm, fitting seamlessly into even the busiest day for a quick **mental reset**.",
-    "size": 45,
-    "reviews": 1900,
-    "ratingAvg": 4.6,
-    "downloads": 140000,
-    "ratings": [
-      { "name": "1 star", "count": 20 },
-      { "name": "2 star", "count": 35 },
-      { "name": "3 star", "count": 100 },
-      { "name": "4 star", "count": 600 },
-      { "name": "5 star", "count": 1145 }
-    ]
-  },
-  {
-    "image": "https://i.ibb.co.com/Cp7xxBy3/Gemini-Generated-Image-iy6xatiy6xatiy6x-4.png",
-    "title": "Pet Pal Diary",
-    "companyName": "Furry Friends Tech",
-    "id": 206,
-    "description": "The best way to stay organized for your beloved pet. Easily manage all vet **appointments**, medication doses, and daily routines with customizable reminders. Ensure your **furry friend** is healthy, happy, and well-cared for every day.",
-    "size": 55,
-    "reviews": 1120,
-    "ratingAvg": 4.4,
-    "downloads": 95000,
-    "ratings": [
-      { "name": "1 star", "count": 30 },
-      { "name": "2 star", "count": 50 },
-      { "name": "3 star", "count": 150 },
-      { "name": "4 star", "count": 400 },
-      { "name": "5 star", "count": 490 }
-    ]
-  },
-  {
-    "image": "https://i.ibb.co.com/4x2KVW4/Gemini-Generated-Image-iy6xatiy6xatiy6x-3.png",
-    "title": "CodeMentor IDE",
-    "companyName": "Developer Tools Inc.",
-    "id": 207,
-    "description": "A powerful yet **lightweight mobile IDE** for developers needing to code on the go. It provides full support for **multiple programming languages** and features automatic cloud synchronization, allowing you to review and edit projects anywhere.",
-    "size": 150,
-    "reviews": 500,
-    "ratingAvg": 4.2,
-    "downloads": 40000,
-    "ratings": [
-      { "name": "1 star", "count": 70 },
-      { "name": "2 star", "count": 80 },
-      { "name": "3 star", "count": 100 },
-      { "name": "4 star", "count": 150 },
-      { "name": "5 star", "count": 100 }
-    ]
-  },
-  {
-    "image": "https://i.ibb.co.com/Kj82Z8Bn/Gemini-Generated-Image-iy6xatiy6xatiy6x-2.png",
-    "title": "QuickSketch Pad",
-    "companyName": "Artistic Apps",
-    "id": 208,
-    "description": "Your fast and intuitive digital canvas. **Capture ideas instantly** using the simple, responsive drawing tools. Ideal for quick mockups, notes, and visual brainstorming, making it easy to save and share your spontaneous creations.",
-    "size": 25,
-    "reviews": 1700,
-    "ratingAvg": 4.6,
-    "downloads": 130000,
-    "ratings": [
-      { "name": "1 star", "count": 10 },
-      { "name": "2 star", "count": 20 },
-      { "name": "3 star", "count": 100 },
-      { "name": "4 star", "count": 550 },
-      { "name": "5 star", "count": 1020 }
-    ]
-  },
-  {
-    "image": "https://i.ibb.co.com/S4CKnS2H/Gemini-Generated-Image-iy6xatiy6xatiy6x-1.png",
-    "title": "HealthyPlate Recipes",
-    "companyName": "NutriCook Solutions",
-    "id": 209,
-    "description": "Find thousands of **healthy and delicious meals** tailored to your diet. Filter recipes by allergies or preference, and get instant **nutritional information**. Simplify your kitchen routine and prioritize your wellness journey.",
-    "size": 70,
-    "reviews": 2100,
-    "ratingAvg": 4.7,
-    "downloads": 180000,
-    "ratings": [
-      { "name": "1 star", "count": 10 },
-      { "name": "2 star", "count": 20 },
-      { "name": "3 star", "count": 90 },
-      { "name": "4 star", "count": 600 },
-      { "name": "5 star", "count": 1380 }
-    ]
-  },
-  {
-    "image": "https://i.ibb.co.com/wNmRHzm6/Gemini-Generated-Image-iy6xatiy6xatiy6x.png",
-    "title": "Solar System Tour",
-    "companyName": "Cosmic Wonders",
-    "id": 210,
-    "description": "Take an **interactive 3D journey** through our solar system. Explore planets and moons with **detailed facts** and high-resolution visuals. A mesmerizing educational tool for students and space enthusiasts alike.",
-    "size": 90,
-    "reviews": 1300,
-    "ratingAvg": 4.8,
-    "downloads": 100000,
-    "ratings": [
-      { "name": "1 star", "count": 5 },
-      { "name": "2 star", "count": 15 },
-      { "name": "3 star", "count": 60 },
-      { "name": "4 star", "count": 420 },
-      { "name": "5 star", "count": 800 }
-    ]
-  },
-  {
-    "image": "https://i.ibb.co.com/chtPyH8w/Gemini-Generated-Image-ut5ys3ut5ys3ut5y-9.png",
-    "title": "SmartHome Connect",
-    "companyName": "Automate Solutions",
-    "id": 211,
-    "description": "Control your entire **smart home** ecosystem from one place. Manage lights, adjust your thermostat, and monitor security cameras easily. Set up custom routines for the ultimate automated living experience.",
-    "size": 50,
-    "reviews": 3200,
-    "ratingAvg": 4.9,
-    "downloads": 250000,
-    "ratings": [
-      { "name": "1 star", "count": 5 },
-      { "name": "2 star", "count": 10 },
-      { "name": "3 star", "count": 40 },
-      { "name": "4 star", "count": 800 },
-      { "name": "5 star", "count": 2345 }
-    ]
-  },
-  {
-    "image": "https://i.ibb.co.com/bMnyTrVT/Gemini-Generated-Image-ut5ys3ut5ys3ut5y-8.png",
-    "title": "Vintage Camera Filter",
-    "companyName": "Nostalgia Shots",
-    "id": 212,
-    "description": "Instantly transform your photos with **classic film effects** and stunning retro filters. Mimic the look of vintage cameras for a nostalgic aesthetic. Give your modern images a beautiful, **timeless quality**.",
-    "size": 40,
-    "reviews": 2500,
-    "ratingAvg": 4.6,
-    "downloads": 190000,
-    "ratings": [
-      { "name": "1 star", "count": 10 },
-      { "name": "2 star", "count": 25 },
-      { "name": "3 star", "count": 120 },
-      { "name": "4 star", "count": 700 },
-      { "name": "5 star", "count": 1645 }
-    ]
-  },
-  {
-    "image": "https://i.ibb.co.com/0gxk1xF/Gemini-Generated-Image-ut5ys3ut5ys3ut5y-7.png",
-    "title": "Fantasy RPG Quest",
-    "companyName": "Epic Gaming Studios",
-    "id": 213,
-    "description": "Jump into an **epic fantasy world** for an offline, single-player role-playing adventure. Battle monsters, discover hidden treasures, and **complete challenging quests**. The perfect escape for core RPG fans.",
-    "size": 250,
-    "reviews": 4200,
-    "ratingAvg": 4.5,
-    "downloads": 300000,
-    "ratings": [
-      { "name": "1 star", "count": 80 },
-      { "name": "2 star", "count": 100 },
-      { "name": "3 star", "count": 300 },
-      { "name": "4 star", "count": 1200 },
-      { "name": "5 star", "count": 2520 }
-    ]
-  },
-  {
-    "image": "https://i.ibb.co.com/TBth6dSq/Gemini-Generated-Image-ut5ys3ut5ys3ut5y-6.png",
-    "title": "Local Eats Finder",
-    "companyName": "GastroGuide",
-    "id": 214,
-    "description": "Find the best local restaurants and **hidden culinary spots** right near you. Read trusted reviews, browse menus, and get directions instantly. Your personal **GastroGuide** to unforgettable dining experiences.",
-    "size": 60,
-    "reviews": 3500,
-    "ratingAvg": 4.7,
-    "downloads": 270000,
-    "ratings": [
-      { "name": "1 star", "count": 20 },
-      { "name": "2 star", "count": 30 },
-      { "name": "3 star", "count": 150 },
-      { "name": "4 star", "count": 900 },
-      { "name": "5 star", "count": 2400 }
-    ]
-  },
-  {
-    "image": "https://i.ibb.co.com/d4WNWPdd/Gemini-Generated-Image-ut5ys3ut5ys3ut5y-5.png",
-    "title": "StudyFocus Timer",
-    "companyName": "Productivity Hub",
-    "id": 215,
-    "description": "Maximize focus with the **Pomodoro technique**. Use customizable work and break timers to stay on task. This app is essential for students and professionals seeking to **boost productivity** and track study progress efficiently.",
-    "size": 30,
-    "reviews": 1600,
-    "ratingAvg": 4.8,
-    "downloads": 120000,
-    "ratings": [
-      { "name": "1 star", "count": 5 },
-      { "name": "2 star", "count": 10 },
-      { "name": "3 star", "count": 50 },
-      { "name": "4 star", "count": 450 },
-      { "name": "5 star", "count": 1085 }
-    ]
-  },
-  {
-    "image": "https://i.ibb.co.com/Txhm0jR3/Gemini-Generated-Image-ut5ys3ut5ys3ut5y-4.png",
-    "title": "DIY Project Assistant",
-    "companyName": "Crafty Solutions",
-    "id": 216,
-    "description": "Your pocket guide for all do-it-yourself projects. Get **step-by-step instructions**, detailed material lists, and **tool recommendations**. Turn your crafting and home improvement ideas into successful realities with confidence.",
-    "size": 70,
-    "reviews": 850,
-    "ratingAvg": 4.3,
-    "downloads": 70000,
-    "ratings": [
-      { "name": "1 star", "count": 40 },
-      { "name": "2 star", "count": 50 },
-      { "name": "3 star", "count": 100 },
-      { "name": "4 star", "count": 300 },
-      { "name": "5 star", "count": 360 }
-    ]
-  },
-  {
-    "image": "https://i.ibb.co.com/r9xvqVt/Gemini-Generated-Image-ut5ys3ut5ys3ut5y-3.png",
-    "title": "WeatherWise Global",
-    "companyName": "Atmosphere Data",
-    "id": 217,
-    "description": "Get **accurate global forecasts**, live radar, and detailed satellite maps. Receive timely **severe weather alerts** to stay safe and plan your day perfectly. The most comprehensive weather tool available for reliable data.",
-    "size": 55,
-    "reviews": 4100,
-    "ratingAvg": 4.9,
-    "downloads": 320000,
-    "ratings": [
-      { "name": "1 star", "count": 5 },
-      { "name": "2 star", "count": 10 },
-      { "name": "3 star", "count": 30 },
-      { "name": "4 star", "count": 900 },
-      { "name": "5 star", "count": 3155 }
-    ]
-  },
-  {
-    "image": "https://i.ibb.co.com/kVyM2RTC/Gemini-Generated-Image-ut5ys3ut5ys3ut5y-2.png",
-    "title": "Puzzle Quest Saga",
-    "companyName": "Brain Teaser Games",
-    "id": 218,
-    "description": "Sharpen your mind with hundreds of **challenging puzzles** and intricate brain teasers. Enjoy hours of engaging, satisfying gameplay that tests your logic and creativity. Your daily dose of essential **mental exercise**.",
-    "size": 80,
-    "reviews": 2900,
-    "ratingAvg": 4.5,
-    "downloads": 200000,
-    "ratings": [
-      { "name": "1 star", "count": 25 },
-      { "name": "2 star", "count": 45 },
-      { "name": "3 star", "count": 150 },
-      { "name": "4 star", "count": 800 },
-      { "name": "5 star", "count": 1880 }
-    ]
-  },
-  {
-    "image": "https://i.ibb.co.com/5xXTx505/Gemini-Generated-Image-ut5ys3ut5ys3ut5y-1.png",
-    "title": "Language Tutor AI",
-    "companyName": "LinguaGenius",
-    "id": 219,
-    "description": "Learn a new language faster with your **personal AI tutor**. Get personalized lessons, **real-time speaking feedback**, and interactive practice. Break down language barriers and achieve fluency efficiently and effectively.",
-    "size": 100,
-    "reviews": 1950,
-    "ratingAvg": 4.7,
-    "downloads": 160000,
-    "ratings": [
-      { "name": "1 star", "count": 10 },
-      { "name": "2 star", "count": 20 },
-      { "name": "3 star", "count": 90 },
-      { "name": "4 star", "count": 600 },
-      { "name": "5 star", "count": 1230 }
-    ]
-  },
-  {
-    "image": "https://i.ibb.co.com/MDmhWnC4/Gemini-Generated-Image-ut5ys3ut5ys3ut5y.png",
-    "title": "Dream Weaver Journal",
-    "companyName": "Subconscious Apps",
-    "id": 220,
-    "description": "A dedicated space to **record and analyze** your dreams nightly. Discover patterns, interpret common symbols, and gain insights into your subconscious mind. Understand yourself better, one dream at a time.",
-    "size": 40,
-    "reviews": 1100,
-    "ratingAvg": 4.6,
-    "downloads": 90000,
-    "ratings": [
-      { "name": "1 star", "count": 20 },
-      { "name": "2 star", "count": 30 },
-      { "name": "3 star", "count": 100 },
-      { "name": "4 star", "count": 350 },
-      { "name": "5 star", "count": 600 }
-    ]
-  }
+
+  [
+    {
+      "image": "https://i.ibb.co.com/Vk9mkBm/Gemini-Generated-Image-iy6xatiy6xatiy6x-9.png",
+      "title": "AstroJournal",
+      "companyName": "Skyline Labs",
+      "id": 201,
+      "description": "Log and organize your celestial observations easily. Get **real-time constellation tracking** and event updates. The perfect tool for **amateur astronomers** to document and share their nightly sky discoveries.",
+      "size": 65,
+      "reviews": 1500,
+      "ratingAvg": 4.7,
+      "downloads": 110000,
+      "ratings": [
+        { "name": "5 star", "count": 990 },
+        { "name": "4 star", "count": 400 },
+        { "name": "3 star", "count": 80 },
+        { "name": "2 star", "count": 20 },
+        { "name": "1 star", "count": 10 }
+      ]
+    },
+    {
+      "image": "https://i.ibb.co.com/3YpncxQp/Gemini-Generated-Image-iy6xatiy6xatiy6x-8.png",
+      "title": "GreenThumb Planner",
+      "companyName": "Botanical Software",
+      "id": 202,
+      "description": "Your ultimate gardening companion. **Track plant growth**, manage complex watering schedules, and get alerts for **pest control**. This app ensures your garden thrives through accurate logging and timely reminders.",
+      "size": 40,
+      "reviews": 980,
+      "ratingAvg": 4.5,
+      "downloads": 85000,
+      "ratings": [
+        { "name": "5 star", "count": 495 },
+        { "name": "4 star", "count": 350 },
+        { "name": "3 star", "count": 90 },
+        { "name": "2 star", "count": 30 },
+        { "name": "1 star", "count": 15 }
+      ]
+    },
+    {
+      "image": "https://i.ibb.co.com/gbJfjkFH/Gemini-Generated-Image-iy6xatiy6xatiy6x-7.png",
+      "title": "StoryWeaver Studio",
+      "companyName": "Narrative Nexus",
+      "id": 203,
+      "description": "Craft compelling stories with powerful tools. Utilize **AI-assisted plot generation**, refine characters, and build your world effortlessly. The studio provides the structure and guidance to complete your next novel or screenplay.",
+      "size": 110,
+      "reviews": 750,
+      "ratingAvg": 4.3,
+      "downloads": 60000,
+      "ratings": [
+        { "name": "5 star", "count": 280 },
+        { "name": "4 star", "count": 250 },
+        { "name": "3 star", "count": 120 },
+        { "name": "2 star", "count": 60 },
+        { "name": "1 star", "count": 40 }
+      ]
+    },
+    {
+      "image": "https://i.ibb.co.com/hFPxvMRC/Gemini-Generated-Image-iy6xatiy6xatiy6x-6.png",
+      "title": "BudgetSavvy Wallet",
+      "companyName": "Financial Flow",
+      "id": 204,
+      "description": "Take full control of your money and work towards **financial freedom**. Easily **track all expenses**, create and manage personalized budgets, and get smart, actionable insights. Simplify your finances and save more effectively today.",
+      "size": 35,
+      "reviews": 2800,
+      "ratingAvg": 4.8,
+      "downloads": 220000,
+      "ratings": [
+        { "name": "5 star", "count": 2010 },
+        { "name": "4 star", "count": 700 },
+        { "name": "3 star", "count": 70 },
+        { "name": "2 star", "count": 15 },
+        { "name": "1 star", "count": 5 }
+      ]
+    },
+    {
+      "image": "https://i.ibb.co.com/x4w550Q/Gemini-Generated-Image-iy6xatiy6xatiy6x-5.png",
+      "title": "Daily Mindful Moment",
+      "companyName": "Serene Apps",
+      "id": 205,
+      "description": "Find peace anytime with quick, **guided meditations** and essential breathing exercises. Our app is designed to help you reduce stress and cultivate calm, fitting seamlessly into even the busiest day for a quick **mental reset**.",
+      "size": 45,
+      "reviews": 1900,
+      "ratingAvg": 4.6,
+      "downloads": 140000,
+      "ratings": [
+        { "name": "5 star", "count": 1145 },
+        { "name": "4 star", "count": 600 },
+        { "name": "3 star", "count": 100 },
+        { "name": "2 star", "count": 35 },
+        { "name": "1 star", "count": 20 }
+      ]
+    },
+    {
+      "image": "https://i.ibb.co.com/Cp7xxBy3/Gemini-Generated-Image-iy6xatiy6xatiy6x-4.png",
+      "title": "Pet Pal Diary",
+      "companyName": "Furry Friends Tech",
+      "id": 206,
+      "description": "The best way to stay organized for your beloved pet. Easily manage all vet **appointments**, medication doses, and daily routines with customizable reminders. Ensure your **furry friend** is healthy, happy, and well-cared for every day.",
+      "size": 55,
+      "reviews": 1120,
+      "ratingAvg": 4.4,
+      "downloads": 95000,
+      "ratings": [
+        { "name": "5 star", "count": 490 },
+        { "name": "4 star", "count": 400 },
+        { "name": "3 star", "count": 150 },
+        { "name": "2 star", "count": 50 },
+        { "name": "1 star", "count": 30 }
+      ]
+    },
+    {
+      "image": "https://i.ibb.co.com/4x2KVW4/Gemini-Generated-Image-iy6xatiy6xatiy6x-3.png",
+      "title": "CodeMentor IDE",
+      "companyName": "Developer Tools Inc.",
+      "id": 207,
+      "description": "A powerful yet **lightweight mobile IDE** for developers needing to code on the go. It provides full support for **multiple programming languages** and features automatic cloud synchronization, allowing you to review and edit projects anywhere.",
+      "size": 150,
+      "reviews": 500,
+      "ratingAvg": 4.2,
+      "downloads": 40000,
+      "ratings": [
+        { "name": "4 star", "count": 150 },
+        { "name": "5 star", "count": 100 },
+        { "name": "3 star", "count": 100 },
+        { "name": "2 star", "count": 80 },
+        { "name": "1 star", "count": 70 }
+      ]
+    },
+    {
+      "image": "https://i.ibb.co.com/Kj82Z8Bn/Gemini-Generated-Image-iy6xatiy6xatiy6x-2.png",
+      "title": "QuickSketch Pad",
+      "companyName": "Artistic Apps",
+      "id": 208,
+      "description": "Your fast and intuitive digital canvas. **Capture ideas instantly** using the simple, responsive drawing tools. Ideal for quick mockups, notes, and visual brainstorming, making it easy to save and share your spontaneous creations.",
+      "size": 25,
+      "reviews": 1700,
+      "ratingAvg": 4.6,
+      "downloads": 130000,
+      "ratings": [
+        { "name": "5 star", "count": 1020 },
+        { "name": "4 star", "count": 550 },
+        { "name": "3 star", "count": 100 },
+        { "name": "2 star", "count": 20 },
+        { "name": "1 star", "count": 10 }
+      ]
+    },
+    {
+      "image": "https://i.ibb.co.com/S4CKnS2H/Gemini-Generated-Image-iy6xatiy6xatiy6x-1.png",
+      "title": "HealthyPlate Recipes",
+      "companyName": "NutriCook Solutions",
+      "id": 209,
+      "description": "Find thousands of **healthy and delicious meals** tailored to your diet. Filter recipes by allergies or preference, and get instant **nutritional information**. Simplify your kitchen routine and prioritize your wellness journey.",
+      "size": 70,
+      "reviews": 2100,
+      "ratingAvg": 4.7,
+      "downloads": 180000,
+      "ratings": [
+        { "name": "5 star", "count": 1380 },
+        { "name": "4 star", "count": 600 },
+        { "name": "3 star", "count": 90 },
+        { "name": "2 star", "count": 20 },
+        { "name": "1 star", "count": 10 }
+      ]
+    },
+    {
+      "image": "https://i.ibb.co.com/wNmRHzm6/Gemini-Generated-Image-iy6xatiy6xatiy6x.png",
+      "title": "Solar System Tour",
+      "companyName": "Cosmic Wonders",
+      "id": 210,
+      "description": "Take an **interactive 3D journey** through our solar system. Explore planets and moons with **detailed facts** and high-resolution visuals. A mesmerizing educational tool for students and space enthusiasts alike.",
+      "size": 90,
+      "reviews": 1300,
+      "ratingAvg": 4.8,
+      "downloads": 100000,
+      "ratings": [
+        { "name": "5 star", "count": 800 },
+        { "name": "4 star", "count": 420 },
+        { "name": "3 star", "count": 60 },
+        { "name": "2 star", "count": 15 },
+        { "name": "1 star", "count": 5 }
+      ]
+    },
+  
+
+  
+    {
+      "image": "https://i.ibb.co.com/chtPyH8w/Gemini-Generated-Image-ut5ys3ut5ys3ut5y-9.png",
+      "title": "SmartHome Connect",
+      "companyName": "Automate Solutions",
+      "id": 211,
+      "description": "Control your entire **smart home** ecosystem from one place. Manage lights, adjust your thermostat, and monitor security cameras easily. Set up custom routines for the ultimate automated living experience.",
+      "size": 50,
+      "reviews": 3200,
+      "ratingAvg": 4.9,
+      "downloads": 250000,
+      "ratings": [
+        { "name": "5 star", "count": 2345 },
+        { "name": "4 star", "count": 800 },
+        { "name": "3 star", "count": 40 },
+        { "name": "2 star", "count": 10 },
+        { "name": "1 star", "count": 5 }
+      ]
+    },
+    {
+      "image": "https://i.ibb.co.com/bMnyTrVT/Gemini-Generated-Image-ut5ys3ut5ys3ut5y-8.png",
+      "title": "Vintage Camera Filter",
+      "companyName": "Nostalgia Shots",
+      "id": 212,
+      "description": "Instantly transform your photos with **classic film effects** and stunning retro filters. Mimic the look of vintage cameras for a nostalgic aesthetic. Give your modern images a beautiful, **timeless quality**.",
+      "size": 40,
+      "reviews": 2500,
+      "ratingAvg": 4.6,
+      "downloads": 190000,
+      "ratings": [
+        { "name": "5 star", "count": 1645 },
+        { "name": "4 star", "count": 700 },
+        { "name": "3 star", "count": 120 },
+        { "name": "2 star", "count": 25 },
+        { "name": "1 star", "count": 10 }
+      ]
+    },
+    {
+      "image": "https://i.ibb.co.com/0gxk1xF/Gemini-Generated-Image-ut5ys3ut5ys3ut5y-7.png",
+      "title": "Fantasy RPG Quest",
+      "companyName": "Epic Gaming Studios",
+      "id": 213,
+      "description": "Jump into an **epic fantasy world** for an offline, single-player role-playing adventure. Battle monsters, discover hidden treasures, and **complete challenging quests**. The perfect escape for core RPG fans.",
+      "size": 250,
+      "reviews": 4200,
+      "ratingAvg": 4.5,
+      "downloads": 300000,
+      "ratings": [
+        { "name": "5 star", "count": 2520 },
+        { "name": "4 star", "count": 1200 },
+        { "name": "3 star", "count": 300 },
+        { "name": "2 star", "count": 100 },
+        { "name": "1 star", "count": 80 }
+      ]
+    },
+    {
+      "image": "https://i.ibb.co.com/TBth6dSq/Gemini-Generated-Image-ut5ys3ut5ys3ut5y-6.png",
+      "title": "Local Eats Finder",
+      "companyName": "GastroGuide",
+      "id": 214,
+      "description": "Find the best local restaurants and **hidden culinary spots** right near you. Read trusted reviews, browse menus, and get directions instantly. Your personal **GastroGuide** to unforgettable dining experiences.",
+      "size": 60,
+      "reviews": 3500,
+      "ratingAvg": 4.7,
+      "downloads": 270000,
+      "ratings": [
+        { "name": "5 star", "count": 2400 },
+        { "name": "4 star", "count": 900 },
+        { "name": "3 star", "count": 150 },
+        { "name": "2 star", "count": 30 },
+        { "name": "1 star", "count": 20 }
+      ]
+    },
+    {
+      "image": "https://i.ibb.co.com/d4WNWPdd/Gemini-Generated-Image-ut5ys3ut5ys3ut5y-5.png",
+      "title": "StudyFocus Timer",
+      "companyName": "Productivity Hub",
+      "id": 215,
+      "description": "Maximize focus with the **Pomodoro technique**. Use customizable work and break timers to stay on task. This app is essential for students and professionals seeking to **boost productivity** and track study progress efficiently.",
+      "size": 30,
+      "reviews": 1600,
+      "ratingAvg": 4.8,
+      "downloads": 120000,
+      "ratings": [
+        { "name": "5 star", "count": 1085 },
+        { "name": "4 star", "count": 450 },
+        { "name": "3 star", "count": 50 },
+        { "name": "2 star", "count": 10 },
+        { "name": "1 star", "count": 5 }
+      ]
+    },
+    {
+      "image": "https://i.ibb.co.com/Txhm0jR3/Gemini-Generated-Image-ut5ys3ut5ys3ut5y-4.png",
+      "title": "DIY Project Assistant",
+      "companyName": "Crafty Solutions",
+      "id": 216,
+      "description": "Your pocket guide for all do-it-yourself projects. Get **step-by-step instructions**, detailed material lists, and **tool recommendations**. Turn your crafting and home improvement ideas into successful realities with confidence.",
+      "size": 70,
+      "reviews": 850,
+      "ratingAvg": 4.3,
+      "downloads": 70000,
+      "ratings": [
+        { "name": "5 star", "count": 360 },
+        { "name": "4 star", "count": 300 },
+        { "name": "3 star", "count": 100 },
+        { "name": "2 star", "count": 50 },
+        { "name": "1 star", "count": 40 }
+      ]
+    },
+    {
+      "image": "https://i.ibb.co.com/r9xvqVt/Gemini-Generated-Image-ut5ys3ut5ys3ut5y-3.png",
+      "title": "WeatherWise Global",
+      "companyName": "Atmosphere Data",
+      "id": 217,
+      "description": "Get **accurate global forecasts**, live radar, and detailed satellite maps. Receive timely **severe weather alerts** to stay safe and plan your day perfectly. The most comprehensive weather tool available for reliable data.",
+      "size": 55,
+      "reviews": 4100,
+      "ratingAvg": 4.9,
+      "downloads": 320000,
+      "ratings": [
+        { "name": "5 star", "count": 3155 },
+        { "name": "4 star", "count": 900 },
+        { "name": "3 star", "count": 30 },
+        { "name": "2 star", "count": 10 },
+        { "name": "1 star", "count": 5 }
+      ]
+    },
+    {
+      "image": "https://i.ibb.co.com/kVyM2RTC/Gemini-Generated-Image-ut5ys3ut5ys3ut5y-2.png",
+      "title": "Puzzle Quest Saga",
+      "companyName": "Brain Teaser Games",
+      "id": 218,
+      "description": "Sharpen your mind with hundreds of **challenging puzzles** and intricate brain teasers. Enjoy hours of engaging, satisfying gameplay that tests your logic and creativity. Your daily dose of essential **mental exercise**.",
+      "size": 80,
+      "reviews": 2900,
+      "ratingAvg": 4.5,
+      "downloads": 200000,
+      "ratings": [
+        { "name": "5 star", "count": 1880 },
+        { "name": "4 star", "count": 800 },
+        { "name": "3 star", "count": 150 },
+        { "name": "2 star", "count": 45 },
+        { "name": "1 star", "count": 25 }
+      ]
+    },
+    {
+      "image": "https://i.ibb.co.com/5xXTx505/Gemini-Generated-Image-ut5ys3ut5ys3ut5y-1.png",
+      "title": "Language Tutor AI",
+      "companyName": "LinguaGenius",
+      "id": 219,
+      "description": "Learn a new language faster with your **personal AI tutor**. Get personalized lessons, **real-time speaking feedback**, and interactive practice. Break down language barriers and achieve fluency efficiently and effectively.",
+      "size": 100,
+      "reviews": 1950,
+      "ratingAvg": 4.7,
+      "downloads": 160000,
+      "ratings": [
+        { "name": "5 star", "count": 1230 },
+        { "name": "4 star", "count": 600 },
+        { "name": "3 star", "count": 90 },
+        { "name": "2 star", "count": 20 },
+        { "name": "1 star", "count": 10 }
+      ]
+    },
+    {
+      "image": "https://i.ibb.co.com/MDmhWnC4/Gemini-Generated-Image-ut5ys3ut5ys3ut5y.png",
+      "title": "Dream Weaver Journal",
+      "companyName": "Subconscious Apps",
+      "id": 220,
+      "description": "A dedicated space to **record and analyze** your dreams nightly. Discover patterns, interpret common symbols, and gain insights into your subconscious mind. Understand yourself better, one dream at a time.",
+      "size": 40,
+      "reviews": 1100,
+      "ratingAvg": 4.6,
+      "downloads": 90000,
+      "ratings": [
+        { "name": "5 star", "count": 600 },
+        { "name": "4 star", "count": 350 },
+        { "name": "3 star", "count": 100 },
+        { "name": "2 star", "count": 30 },
+        { "name": "1 star", "count": 20 }
+      ]
+    }
+  
+
 ]
