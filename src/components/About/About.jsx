@@ -1,9 +1,11 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import { useLoaderData, useParams } from 'react-router';
 import dwon from '../../assets/icon-downloads.png'
 import review from '../../assets/icon-review.png'
 import rating from '../../assets/icon-ratings.png'
 import ReChart from './ReChart';
+import { getDataLocal, setDataItems } from '../../Appjs/app';
+ import { ToastContainer, toast } from 'react-toastify';
 
 const About = () => {
   
@@ -22,10 +24,11 @@ const About = () => {
      title,
      ratingAvg,
      downloads,
-
+    id,
      companyName,
      reviews,
      ratings,
+     size,
      description
    } = findId;
   
@@ -37,9 +40,24 @@ const About = () => {
     return chart
   })
   
+  const [install, setInstall] = useState(false)
+  
+  const handelInstall = id => {
+    setInstall(true)
+    toast('Installed');
+    setDataItems(id)
+  }
   
   
-  
+  useEffect(() => {
+    const dataLocal = getDataLocal();
+    const data = dataLocal.map(ids => parseInt(ids))
+    if (data.includes(id)) {
+       setInstall(true)
+    } else {
+      setInstall(false)
+     }
+  },[])
   
 
   return (
@@ -87,7 +105,13 @@ const About = () => {
               </div>
             </div>
             <div className="text-center md:text-left">
-              <button className="btn bg-[#00D390]">Install Now (291 MB)</button>
+              <button
+                disabled={install}
+                onClick={() => handelInstall(id)}
+                className="btn bg-[#00D390] text-white"
+              >
+                {install ? 'Installed' : `Install Now (${size} MB)`}
+              </button>
             </div>
           </div>
         </div>
@@ -100,6 +124,7 @@ const About = () => {
         <h2 className="font-bold text-3xl capitalize mb-[20px]">Description</h2>
         <p className="text-[#627382]">{description}</p>
       </div>
+      <ToastContainer></ToastContainer>
     </div>
   );
 };

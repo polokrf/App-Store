@@ -13,26 +13,32 @@ const Header = () => {
 
   const naveBare = (
     <>
-      <Link to={'/'}>
+      <Link to="/">
         <li
           onClick={() => handelActive('Home')}
-          className={`${active === 'Home' && 'liner-text '} font-bold mb-2 md:mr-4`}
+          className={`${
+            active === 'Home' && 'liner-text '
+          } font-bold mb-2 md:mr-4`}
         >
           Home
         </li>
       </Link>
-      <Link to={'/apps'}>
+      <Link to="/apps">
         <li
           onClick={() => handelActive('apps')}
-          className={`${active === 'apps' && 'liner-text '} font-bold mb-2  md:mr-4`}
+          className={`${
+            active === 'apps' && 'liner-text '
+          } font-bold mb-2  md:mr-4`}
         >
           Apps
         </li>
       </Link>
-      <Link>
+      <Link to="/Installation">
         <li
           onClick={() => handelActive('Installation')}
-          className={`${active === 'Installation' && 'liner-text '} font-bold  `}
+          className={`${
+            active === 'Installation' && 'liner-text '
+          } font-bold  `}
         >
           Installation
         </li>
