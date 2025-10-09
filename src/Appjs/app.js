@@ -4,19 +4,24 @@ const getDataLocal = () => {
     const data = JSON.parse(getDataItem)
     return data
   } else {
-    return []
+     return [];
   }
+ 
+  
 }
 
 const setDataItems = (id) => {
   const items = getDataLocal()
   if (items.includes(id)) {
-    return
+      alert('It items Here')
   } else {
-    items.push(id)
-    const dataItems = JSON.stringify(items);
-    localStorage.setItem('app',dataItems)
+     items.push(id);
+     const dataItems = JSON.stringify(items);
+     localStorage.setItem('app', dataItems);
+    }
+   
   }
-}
+
+
 
 export{getDataLocal,setDataItems}

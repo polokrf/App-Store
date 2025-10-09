@@ -13,7 +13,7 @@ const Header = () => {
 
   const naveBare = (
     <>
-      <Link to="/">
+      <Link to='/'>
         <li
           onClick={() => handelActive('Home')}
           className={`${
@@ -23,7 +23,7 @@ const Header = () => {
           Home
         </li>
       </Link>
-      <Link to="/apps">
+      <Link to='/apps'>
         <li
           onClick={() => handelActive('apps')}
           className={`${
@@ -33,11 +33,11 @@ const Header = () => {
           Apps
         </li>
       </Link>
-      <Link to="/Installation">
+      <Link to='/installation'>
         <li
-          onClick={() => handelActive('Installation')}
+          onClick={() => handelActive('installation')}
           className={`${
-            active === 'Installation' && 'liner-text '
+            active === 'installation' && 'liner-text '
           } font-bold  `}
         >
           Installation
@@ -47,7 +47,7 @@ const Header = () => {
   );
   return (
     <div className="bg-base-100 shadow-sm">
-      <div className="navbar  md:max-w-[1400px] mx-auto w-full p-2 md:p-0 overflow-hidden">
+      <div className="navbar  md:max-w-[1400px] mx-auto w-full p-2 md:p-0 ">
         <div className="navbar-start">
           <div className="dropdown">
             <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">

@@ -1,12 +1,13 @@
 import React from 'react';
 import errorApp from '../../assets/App-Error.png'
-import { Link } from 'react-router';
+import {useNavigate } from 'react-router';
 
 const ErrorApp = () => {
+  const navigate = useNavigate()
   return (
-    <div className='flex items-center justify-center '>
+    <div className="flex items-center justify-center ">
       <div className="my-[30px] text-center">
-        <img className='my-3 block mx-auto' src={errorApp}  alt="" />
+        <img className="my-3 block mx-auto" src={errorApp} alt="" />
         <h2 className=" capitalize font-bold md:text-4xl text-2xl mb-2">
           OPPS!! APP NOT FOUND
         </h2>
@@ -16,11 +17,12 @@ const ErrorApp = () => {
           another apps
         </p>
         <div>
-          <Link to="/">
-            <button className="liner-bg text-white font-bold btn">
-              Go Back!
-            </button>
-          </Link>
+          <button
+            onClick={() => navigate('/apps')}
+            className="liner-bg text-white font-bold btn"
+          >
+            Go Back!
+          </button>
         </div>
       </div>
     </div>

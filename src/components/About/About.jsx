@@ -4,61 +4,82 @@ import dwon from '../../assets/icon-downloads.png'
 import review from '../../assets/icon-review.png'
 import rating from '../../assets/icon-ratings.png'
 import ReChart from './ReChart';
-import { getDataLocal, setDataItems } from '../../Appjs/app';
- import { ToastContainer, toast } from 'react-toastify';
 
+import { ToastContainer, toast } from 'react-toastify';
+import useApp from '../../Hooks/useApp';
+ 
 const About = () => {
+  const { appId } = useParams();
+
+  const { apps, loading, error } = useApp();
+
+   const [install, setInstall] = useState(false)
+
+  const findId = apps.find(p => p.id === Number(appId));
+
   
+// useEffect(() => {
+//   const localItems = JSON.parse(localStorage.getItem('app'));
+
+  
+//   const getValus = localItems.filter(s => s.id == findId.id );
+
+//   if (getValus) {
+//     setInstall(true);
+//   }
+//   }, []);
   
 
-  const appAboutId = useParams()
-  
-  const convertEd = parseInt(appAboutId.appId)
-  
-  const appAbout = useLoaderData()
-  
-  const findId = appAbout.find(appId => appId.id === convertEd)
+  const handelInstall = (id) => {
     
-   const {
-     image,
-     title,
-     ratingAvg,
-     downloads,
+    const getiTemsLocal = JSON.parse(localStorage.getItem('app'));
+
+    let items = []
+
+    if (getiTemsLocal) {
+      const chakItems = getiTemsLocal.some(c => c.id === findId.id)
+      if (chakItems) {
+        return toast('it items all ready get')
+      }
+      items= [...getiTemsLocal,findId];
+
+    } else {
+      items.push(findId)
+    }
+    
+    localStorage.setItem('app', JSON.stringify(items));
+    toast('Installed');
+    
+    
+      setInstall(true);
+    
+  }
+
+ 
+  if (loading) return <p>loading....</p>;
+
+   
+
+  const {
+    image,
+    title,
+    ratingAvg,
+    downloads,
     id,
-     companyName,
-     reviews,
-     ratings,
-     size,
-     description
-   } = findId;
-  
+    companyName,
+    reviews,
+    ratings,
+    size,
+    description,
+  } = findId || {};
+
   const dataCharst = ratings.map(d => {
     const chart = {
       name: d.name,
-      count:d.count
-    }
-    return chart
-  })
-  
-  const [install, setInstall] = useState(false)
-  
-  const handelInstall = id => {
-    setInstall(true)
-    toast('Installed');
-    setDataItems(id)
-  }
-  
-  
-  useEffect(() => {
-    const dataLocal = getDataLocal();
-    const data = dataLocal.map(ids => parseInt(ids))
-    if (data.includes(id)) {
-       setInstall(true)
-    } else {
-      setInstall(false)
-     }
-  },[])
-  
+      count: d.count,
+    };
+    return chart;
+  });
 
   return (
     <div className="wigth">

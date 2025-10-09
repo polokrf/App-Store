@@ -1,40 +1,24 @@
-import React, { useEffect, useState } from 'react';
+import React, {  useEffect, useState } from 'react';
 import { useLoaderData } from 'react-router';
 import App from './App';
 import { CiSearch } from 'react-icons/ci';
 import ErrorApp from './ErrorApp';
+import AppOne from './AppOne';
+import useApp from '../../Hooks/useApp';
 
 const Apps = () => {
-  const appsData = useLoaderData()
- 
-  const [datas, setDatas] = useState(appsData)
+  const { apps } = useApp();
   
+  const [datas, setDatas] = useState('');
+  const trim = datas.trim().toLowerCase();
+  const findSarchData =trim ? apps.filter(d => d.title.toLowerCase() === trim):apps;
+
   
- 
-  
-  const [ittel, setTitel] = useState('')
-  
-  const handelChage = (e) => {
-    const titelValue = e.target.value.toLowerCase()
-    setTitel(titelValue)
 
-    const matchedApps = datas.filter(data => data.title.toLowerCase().includes(titelValue))
-
-    
-
-    
-      setDatas(matchedApps);
-    
-
-    }
-    
-   
-
-    
-  
 
  
  
+  
   
   return (
     <div>
@@ -50,33 +34,34 @@ const Apps = () => {
         <div className="flex justify-between items-center m-4 md:flex-row flex-col">
           <div>
             <h3 className="font-bold text-2xl capitalize  mb-2 md:mb-0">
-              ({appsData.length}) Apps Found
+              ({findSarchData.length}) Apps Found
             </h3>
           </div>
           <div className="flex items-center">
-            <input
-              className="input shadow "
-              type="text"
-              name="name"
-              id=""
-              placeholder="search Apps"
-              onChange={handelChage}
-              defaultValue={ittel}
-            />
+            <label className="input">
+              <input
+                onChange={e => setDatas(e.target.value)}
+                value={datas}
+                type="search"
+                placeholder="search Apps"
+              />
+            </label>
           </div>
         </div>
 
-        {datas.length === 0 ? (
-          <div className="my-[30px]">
-            <ErrorApp></ErrorApp>
-          </div>
-        ) : (
-          <div className=" grid xl:grid-cols-4 lg:grid-cols-3 md:grid-cols-2 grid-cols-1 justify-center items-center">
-            {datas.map((app, index) => (
-              <App key={index} app={app}></App>
+        <div>{findSarchData.length === 0 && <ErrorApp></ErrorApp>}</div>
+
+        <div className=" grid xl:grid-cols-4 lg:grid-cols-3 md:grid-cols-2 grid-cols-1 justify-center items-center">
+          {findSarchData.map((app, index) => (
+            <App key={index} app={app}></App>
+          ))}
+        </div>
+
+        {/* <div className=" grid xl:grid-cols-4 lg:grid-cols-3 md:grid-cols-2 grid-cols-1 justify-center items-center">
+            {appsData.map((singleApp, index) => (
+              <AppOne key={index} singleApp={singleApp}></AppOne>
             ))}
-          </div>
-        )}
+          </div> */}
       </div>
     </div>
   );

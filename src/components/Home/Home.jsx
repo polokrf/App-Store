@@ -1,10 +1,15 @@
 import React from 'react';
 import Hero from './Hero';
 import Apps8 from './Apps8';
-import { useLoaderData } from 'react-router';
+import { Link, useLoaderData } from 'react-router';
+import useApp from '../../Hooks/useApp';
 
 const Home = () => {
-  const mobileApps = useLoaderData()
+
+  const { apps } = useApp()
+  
+  const mobileData = apps.slice(0, 8)
+  
   
   return (
     <div>
@@ -17,11 +22,12 @@ const Home = () => {
           </p>
         </div>
         <div className=" grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4">
-          {mobileApps.map((app, index) => (
+          {mobileData.map((app, index) => (
             <Apps8 key={index} app={app}></Apps8>
           ))}
         </div>
       </div>
+      
     </div>
   );
 };

@@ -1,16 +1,14 @@
 import React from 'react';
-
 import { FaStar } from 'react-icons/fa';
 import { PiDownloadSimple } from 'react-icons/pi';
 import { Link } from 'react-router';
+const AppOne = ({ singleApp }) => {
+   const { image, title, ratingAvg, downloads, id } = singleApp;
 
-const Apps8 = ({ app }) => {
-  console.log(app)
-  const {  image, title, ratingAvg, downloads,id } = app;
   return (
     <div>
       <Link to={`/apps/${id}`}>
-        <div className="card bg-base-100 p-2 shadow-sm m-4 ">
+        <div className="card bg-base-100 p-2 shadow-sm m-4  ">
           <figure>
             <img
               className="h-[300px] object-cover shadow rounded-xl "
@@ -38,10 +36,8 @@ const Apps8 = ({ app }) => {
           </div>
         </div>
       </Link>
-
-      
     </div>
   );
 };
 
-export default Apps8;
+export default AppOne;
