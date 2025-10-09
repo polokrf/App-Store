@@ -6,9 +6,9 @@ import Footer from './Footer/Footer';
 
 const ErrorPage = () => {
   return (
-    <div>
+    <div className='min-h-screen flex flex-col'>
       <Header></Header>
-      <div className="flex items-center justify-center ">
+      <div className="flex items-center justify-center flex-1 ">
         <div className="my-[30px] text-center">
           <img className="my-3 block mx-auto" src={pagImg} alt="" />
           <h2 className=" capitalize font-bold md:text-4xl text-2xl mb-2">

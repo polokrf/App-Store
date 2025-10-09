@@ -1,9 +1,9 @@
 import React from 'react';
 import errorApp from '../../assets/App-Error.png'
-import {useNavigate } from 'react-router';
+import {Link } from 'react-router';
 
 const ErrorApp = () => {
-  const navigate = useNavigate()
+  
   return (
     <div className="flex items-center justify-center ">
       <div className="my-[30px] text-center">
@@ -17,12 +17,11 @@ const ErrorApp = () => {
           another apps
         </p>
         <div>
-          <button
-            onClick={() => navigate('/apps')}
-            className="liner-bg text-white font-bold btn"
-          >
-            Go Back!
-          </button>
+          <Link to='/'>
+            <button className="liner-bg text-white font-bold btn">
+              Go Back!
+            </button>
+          </Link>
         </div>
       </div>
     </div>

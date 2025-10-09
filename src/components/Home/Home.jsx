@@ -27,7 +27,11 @@ const Home = () => {
           ))}
         </div>
       </div>
-      
+      <div className="w-full flex justify-center my-[20px]">
+        <Link to="/apps">
+          <button className="liner-bg btn text-white block">Show All</button>
+        </Link>
+      </div>
     </div>
   );
 };
