@@ -8,6 +8,8 @@ import { useNavigation } from 'react-router';
 
 const Root = () => {
   const navigatino = useNavigation()
+ 
+ 
   return (
     
       <div className=" bg-base-200 overflow-hidden min-h-screen flex flex-col ">

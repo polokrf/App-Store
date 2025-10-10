@@ -3,9 +3,8 @@ import React, {   useState } from 'react';
 import App from './App';
 import { CiSearch } from 'react-icons/ci';
 import ErrorApp from './ErrorApp';
-
-import useApp from '../../Hooks/useApp';
 import { HashLoader } from 'react-spinners';
+import useApp from '../../Hooks/useApp';
 
 const Apps = () => {
   const { apps,loading } = useApp();
@@ -16,7 +15,11 @@ const Apps = () => {
 
   
 
- if(loading) return <HashLoader></HashLoader>
+ if(loading){return (
+   <div className='max-w-[200px] mx-auto'>
+     <HashLoader></HashLoader>
+   </div>
+ );} 
  
  
   

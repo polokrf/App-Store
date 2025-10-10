@@ -50,7 +50,11 @@ const About = () => {
   //   }
   //   }, []);
 
-  if (loading) return <HashLoader></HashLoader>;
+  if(loading){return (
+     <div className='max-w-[200px] mx-auto'>
+       <HashLoader></HashLoader>
+     </div>
+   );} 
 
   const {
     image,

@@ -1,17 +1,23 @@
 import React from 'react';
 import Hero from './Hero';
 import Apps8 from './Apps8';
-import { Link, useLoaderData } from 'react-router';
+import { Link} from 'react-router';
 import useApp from '../../Hooks/useApp';
-
+import { HashLoader } from 'react-spinners';
 
 const Home = () => {
    
-  const { apps } = useApp()
+  const { apps,loading } = useApp()
   
   const mobileData = apps.slice(0, 8)
   
-  
+   if (loading) {
+     return (
+       <div className="max-w-[200px] mx-auto">
+         <HashLoader></HashLoader>
+       </div>
+     );
+   } 
   return (
     <div>
       
