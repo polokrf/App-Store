@@ -25,10 +25,10 @@ const Hero = () => {
                   truly make an impact.
                 </span>
               </p>
-              <div className="flex md:flex-row flex-col justify-center my-4">
+              <div className="flex  justify-center my-4 ">
                 <a
                   href="https://play.google.com/store/apps?hl=en"
-                  className="btn md:mr-3 mb-2 "
+                  className="btn md:mr-3 mb-2 mr-2 "
                 >
                   <img src={img1} alt="" />
                   Google Play
