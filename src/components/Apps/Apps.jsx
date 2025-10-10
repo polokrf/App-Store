@@ -5,9 +5,10 @@ import { CiSearch } from 'react-icons/ci';
 import ErrorApp from './ErrorApp';
 import AppOne from './AppOne';
 import useApp from '../../Hooks/useApp';
+import { HashLoader } from 'react-spinners';
 
 const Apps = () => {
-  const { apps } = useApp();
+  const { apps,loading } = useApp();
   
   const [datas, setDatas] = useState('');
   const trim = datas.trim().toLowerCase();
@@ -15,7 +16,7 @@ const Apps = () => {
 
   
 
-
+ if(loading) return <HashLoader></HashLoader>
  
  
   

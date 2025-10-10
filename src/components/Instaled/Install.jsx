@@ -79,7 +79,9 @@ const Install = () => {
 
       <div className="flex md:justify-between justify-center items-center md:flex-row flex-col mb-[30px]">
         <div>
-          <h3 className="text-2xl font-bold capitalize">{dataI.length} Apps Found</h3>
+          <h3 className="text-2xl font-bold capitalize">
+            {dataI.length} Apps Found
+          </h3>
         </div>
         <div>
           <div className="dropdown dropdown-start">
@@ -94,20 +96,20 @@ const Install = () => {
                 onClick={() => handelSrot('Small')}
                 className=" mb-3 font-bold cursor-pointer"
               >
-                Big to Small
+                High-Low
               </li>
 
               <li
                 onClick={() => handelSrot('Big')}
                 className=" font-bold cursor-pointer"
               >
-                Small To Big
+                Low-High
               </li>
             </ul>
           </div>
         </div>
       </div>
-      { dataI.map(itemI => (
+      {dataI.map(itemI => (
         <InstallApp
           key={itemI.id}
           itemI={itemI}

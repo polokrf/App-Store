@@ -4,8 +4,9 @@ import Apps8 from './Apps8';
 import { Link, useLoaderData } from 'react-router';
 import useApp from '../../Hooks/useApp';
 
-const Home = () => {
 
+const Home = () => {
+   
   const { apps } = useApp()
   
   const mobileData = apps.slice(0, 8)
@@ -13,6 +14,7 @@ const Home = () => {
   
   return (
     <div>
+      
       <Hero></Hero>
       <div className="md:max-w-[1400px] mx-auto w-full p-2 md:p-0 mt-[40px] mb-[15px]">
         <div className="text-center mb-6">
@@ -32,6 +34,8 @@ const Home = () => {
           <button className="liner-bg btn text-white block">Show All</button>
         </Link>
       </div>
+      
+     
     </div>
   );
 };

@@ -5,6 +5,8 @@ import review from '../../assets/icon-review.png'
 import rating from '../../assets/icon-ratings.png'
 import ReChart from './ReChart';
 
+import { HashLoader } from 'react-spinners';
+
 import { ToastContainer, toast } from 'react-toastify';
 import useApp from '../../Hooks/useApp';
  
@@ -56,7 +58,7 @@ const About = () => {
   }
 
  
-  if (loading) return <p>loading....</p>;
+  if (loading) return <HashLoader></HashLoader>
 
    
 
