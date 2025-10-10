@@ -93,14 +93,14 @@ const Install = () => {
             >
               <li
                 onClick={() => handelSrot('Small')}
-                className=" mb-3 font-bold cursor-pointer"
+                className=" mb-3 font-bold cursor-pointer btn w-full"
               >
                 High-Low
               </li>
 
               <li
                 onClick={() => handelSrot('Big')}
-                className=" font-bold cursor-pointer"
+                className=" font-bold cursor-pointer btn w-full"
               >
                 Low-High
               </li>
