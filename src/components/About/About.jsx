@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import { useLoaderData, useParams } from 'react-router';
+import {  useParams } from 'react-router';
 import dwon from '../../assets/icon-downloads.png'
 import review from '../../assets/icon-review.png'
 import rating from '../../assets/icon-ratings.png'
@@ -15,52 +15,42 @@ const About = () => {
 
   const { apps, loading, error } = useApp();
 
-   const [install, setInstall] = useState(false)
+  const [install, setInstall] = useState(false);
 
   const findId = apps.find(p => p.id === Number(appId));
 
-  
-// useEffect(() => {
-//   const localItems = JSON.parse(localStorage.getItem('app'));
-
-  
-//   const getValus = localItems.filter(s => s.id == findId.id );
-
-//   if (getValus) {
-//     setInstall(true);
-//   }
-//   }, []);
-  
-
-  const handelInstall = (id) => {
-    
+  const handelInstall = () => {
     const getiTemsLocal = JSON.parse(localStorage.getItem('app'));
 
-    let items = []
+    let items = [];
 
     if (getiTemsLocal) {
-      const chakItems = getiTemsLocal.some(c => c.id === findId.id)
+      const chakItems = getiTemsLocal.some(c => c.id === findId.id);
       if (chakItems) {
-        return toast('it items all ready get')
+        return toast('it items all ready get');
       }
-      items= [...getiTemsLocal,findId];
-
+      items = [...getiTemsLocal, findId];
     } else {
-      items.push(findId)
+      items.push(findId);
     }
-    
+
     localStorage.setItem('app', JSON.stringify(items));
     toast('Installed');
-    
-    
-      setInstall(true);
-    
-  }
 
- 
-  if (loading) return <HashLoader></HashLoader>
+    setInstall(true);
+  };
 
-   
+  // useEffect(() => {
+  //   const localItems = JSON.parse(localStorage.getItem('app'));
+
+  //   const getValus = localItems.filter(s => s.id == findId.id );
+
+  //   if (getValus) {
+  //     setInstall(true);
+  //   }
+  //   }, []);
+
+  if (loading) return <HashLoader></HashLoader>;
 
   const {
     image,

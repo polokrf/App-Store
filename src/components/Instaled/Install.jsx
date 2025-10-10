@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import { useLoaderData } from 'react-router';
-import { getDataLocal} from '../../Appjs/app';
+
 import swal from 'sweetalert';
 import { HashLoader } from 'react-spinners';
 
@@ -109,13 +108,22 @@ const Install = () => {
           </div>
         </div>
       </div>
-      {dataI.map(itemI => (
-        <InstallApp
-          key={itemI.id}
-          itemI={itemI}
-          handleClick={handleClick}
-        ></InstallApp>
-      ))}
+
+      {dataI.length === 0 ? (
+        <div className='text-center'>
+          <h2 className="text-4xl font-bold capitalize text-red-600">"No apps Installed"</h2>
+        </div>
+      ) : (
+        <div>
+          {dataI.map(itemI => (
+            <InstallApp
+              key={itemI.id}
+              itemI={itemI}
+              handleClick={handleClick}
+            ></InstallApp>
+          ))}
+        </div>
+      )}
     </div>
   );
 };

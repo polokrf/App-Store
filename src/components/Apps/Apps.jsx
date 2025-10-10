@@ -1,9 +1,9 @@
-import React, {  useEffect, useState } from 'react';
-import { useLoaderData } from 'react-router';
+import React, {   useState } from 'react';
+
 import App from './App';
 import { CiSearch } from 'react-icons/ci';
 import ErrorApp from './ErrorApp';
-import AppOne from './AppOne';
+
 import useApp from '../../Hooks/useApp';
 import { HashLoader } from 'react-spinners';
 
@@ -58,11 +58,7 @@ const Apps = () => {
           ))}
         </div>
 
-        {/* <div className=" grid xl:grid-cols-4 lg:grid-cols-3 md:grid-cols-2 grid-cols-1 justify-center items-center">
-            {appsData.map((singleApp, index) => (
-              <AppOne key={index} singleApp={singleApp}></AppOne>
-            ))}
-          </div> */}
+        
       </div>
     </div>
   );
