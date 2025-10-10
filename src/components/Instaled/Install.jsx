@@ -32,7 +32,7 @@ const Install = () => {
   const handleClick = id => {
     const appReamove = JSON.parse(localStorage.getItem('app'));
     const filtersItems = appReamove.filter(apIds => apIds.id !== id);
-    setDataI(perv => perv.filter(p => p.id !== id));
+    setDataI(filtersItems);
    
     localStorage.setItem('app', JSON.stringify(filtersItems))
    const willDelete = swal({

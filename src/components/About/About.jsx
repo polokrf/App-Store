@@ -19,15 +19,18 @@ const About = () => {
 
   const findId = apps.find(p => p.id === Number(appId));
 
+
   const handelInstall = () => {
     const getiTemsLocal = JSON.parse(localStorage.getItem('app'));
 
     let items = [];
 
     if (getiTemsLocal) {
-      const chakItems = getiTemsLocal.some(c => c.id === findId.id);
+      const chakItems = getiTemsLocal.find(c => c.id === findId.id);
       if (chakItems) {
-        return toast('it items all ready get');
+        
+         return toast('it items all ready get');
+        
       }
       items = [...getiTemsLocal, findId];
     } else {
@@ -37,19 +40,17 @@ const About = () => {
     localStorage.setItem('app', JSON.stringify(items));
     toast('Installed');
 
-    setInstall(true);
-  };
+    
+        setInstall(true);
+      
+    }
+    
+    
+  
+  
 
-  // useEffect(() => {
-  //   const localItems = JSON.parse(localStorage.getItem('app'));
-
-  //   const getValus = localItems.filter(s => s.id == findId.id );
-
-  //   if (getValus) {
-  //     setInstall(true);
-  //   }
-  //   }, []);
-
+ 
+ 
   if(loading){return (
      <div className='max-w-[200px] mx-auto'>
        <HashLoader></HashLoader>
@@ -124,7 +125,7 @@ const About = () => {
             <div className="text-center md:text-left">
               <button
                 disabled={install}
-                onClick={() => handelInstall(id)}
+                onClick={() => handelInstall()}
                 className="btn bg-[#00D390] text-white"
               >
                 {install ? 'Installed' : `Install Now (${size} MB)`}

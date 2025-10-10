@@ -12,7 +12,7 @@ const Hero = () => {
             <div className="">
               <h1 className="text-5xl font-bold mb-2">We Build</h1>
 
-              <h2 className="text-5xl font-bold mb-4">
+              <h2 className=" md:text-5xl text-3xl  font-bold mb-4">
                 <span className="liner-text">Productive</span> Apps
               </h2>
               <p>
